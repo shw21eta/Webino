@@ -1,0 +1,22 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<h2 id="demo"></h2>
+		<script>
+				var n=10.578;
+				var s="Linux is awesome";
+				var c=null;
+				var person={
+					fname:"Elon",
+					lname:"Musk",
+					fullname:function(){
+						return this.fname+" "+this.lname;
+						}
+					}
+				//document.write(c);
+				document.getElementById("demo").innerHTML=person.fullname();
+		</script>
+	</body>
+
+</html>

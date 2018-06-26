@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <title>mouseover mouseout</title>
+<body>
+
+<div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+style="background-color:yellow;width:120px;height:110px;padding:40px;">
+hover over me</div>
+
+<script>
+function mouseOver(obj) 
+{
+    obj.innerHTML = "Walchand Linux Users' Group"
+}
+
+function mouseOut(obj) 
+{
+    obj.innerHTML = "WLUG"
+}
+</script>
+
+</body>
+</html>

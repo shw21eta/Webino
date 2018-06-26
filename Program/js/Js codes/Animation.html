@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<style>
+#bigbox {
+  width: 1200px;
+  height: 50px;
+  position: relative;
+  background: cyan;
+}
+#smallbox {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+</style>
+<body>
+
+<p>
+<button onclick="myMove()">Move</button>
+</p> 
+
+<div id ="bigbox">
+    <div id ="smallbox"></div>
+</div>
+
+<script>
+    function myMove() 
+    {
+      var ref = document.getElementById("smallbox");   
+      var left = 0;  
+      var id = setInterval(frame, 1);
+      function frame() 
+      {
+        if (left == 1150) 
+        {
+          clearInterval(id);
+        } 
+        else {
+          left++; 
+          ref.style.left = left + 'px'; 
+        }
+      }
+    }
+</script>
+</body>
+</html>
+
+
+

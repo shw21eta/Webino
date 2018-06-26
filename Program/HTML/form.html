@@ -1,0 +1,62 @@
+<html>
+
+   <head>
+      <title>Text Input Control</title>
+       <style>
+           *{
+               font-family:sans-serif;
+           }
+           h1{
+               font-size: 25px;
+               margin: auto;
+               width: 50%;
+               text-align: center;
+               border: 2px solid white;
+               background-color: navy;
+               color: aliceblue;
+               padding: 5px;
+           }
+
+           body{
+               background-color:lightgray;
+           }
+
+           .btn{
+               border: 0px;
+               color: white;
+               padding: 10px;
+               border-radius: 7px;
+               background-color:darkmagenta;
+           }
+
+           .ip{
+               align-content: center;
+               margin: 0px 100px;
+           }
+           form{
+            margin-top: 20px;
+           }
+       </style>
+   </head>
+
+   <body>
+
+
+    <h1>Personal Information:</h1>
+       <center><form>
+         Name: <input class="ip" type = "text" name = "name" placeholder="name"/>
+         <br><br>
+         Mob No: <input class="ip" type = "text" name = "mob_no" placeholder="Last name"/>
+        <br><br>
+         Email id:<input class="ip" style="margin-left: 120px " type="mail" name="email" placeholder="Email id"/>
+        <br><br>
+        Password: <input class="ip" type = "password" name = "password" placeholder="Password"/>
+       <br><br>
+
+        <input class="btn" type = "submit" name = "submit" value = "Submit"   formaction=" ">
+        <input class="btn" type = "reset" name = "reset"  value = "Reset" />
+      </form>
+           </center>
+   </body>
+
+</html>

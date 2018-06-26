@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+
+<h1 id="demo1"></h1>
+<h1 id="demo2"></h1>
+<h1 id="demo3"></h1>
+<button type="button" onclick="myFunction()">Just Try It</button>
+
+<script>
+function myFunction() {
+	text = "Shweta Gejage";
+	x=10;
+	document.getElementById("demo1").innerHTML =new Date();
+	document.getElementById("demo2").innerHTML =new Date("August 15, 2050, 10:00");
+   
+   //document.getElementById("demo3").innerHTML =text.length;
+   //document.getElementById("demo3").innerHTML =text.indexOf("et");
+   //document.getElementById("demo3").innerHTML =text.substring(9,12);
+   //document.getElementById("demo3").innerHTML =text.slice(-9);
+   document.getElementById("demo3").innerHTML =x.toExponential();
+   document.getElementById("demo3").innerHTML =x.toPrecision(4);
+}
+</script>
+
+</body>
+</html> 

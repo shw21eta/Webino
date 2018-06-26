@@ -1,0 +1,7 @@
+netstat -antu	:  	will show all tcp and udp ports in use.
+netstat -antup	:  
+fuser 80/tcp	: 	shows process ids running on port 80
+fuser -k 80/tcp	: 	kills process on that port
+lsof -i:80	: 
+sudo kill $(sudo lsof -t -i:80)
+

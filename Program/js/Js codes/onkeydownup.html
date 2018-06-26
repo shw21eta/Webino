@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <title>Onkeydown up</title>
+<body>
+
+
+<input type="text" id="demo" onkeydown="keydownFunction()" onkeyup="keyupFunction()">
+
+<script>
+function keydownFunction() 
+{
+    document.getElementById("demo").style.backgroundColor = "red";
+}
+
+function keyupFunction() 
+{
+    document.getElementById("demo").style.backgroundColor = "green";
+}
+</script>
+
+</body>
+</html>
+

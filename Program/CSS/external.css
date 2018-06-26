@@ -1,0 +1,30 @@
+#h{
+			border :2px solid red;
+			color:green;
+			padding: 8px;
+			text-align: center;
+			margin:20px 200px;
+			background-color: aqua;
+		}
+
+		p{
+			color:red;
+			background-color: yellow;
+			text-align: center;
+			display: block; 
+			margin: 40px 200px;
+
+		}
+		#h1css{
+			background-color: blue;
+			color:black;
+			text-align: center;
+			margin: 50px 200px;
+
+		}
+		.cls{
+			background-color: black;
+			color: white;
+			text-align: center;
+			margin: 60px 200px;	
+		}

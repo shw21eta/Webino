@@ -1,0 +1,43 @@
+body{
+	background-color: black;
+	color:white;
+	opacity: 0.2;
+
+}
+h1{
+	float: left;	
+	text-shadow: 3px 4px red ;
+}
+p{
+
+	color:white	;
+}
+#t01{
+	width: 150px;
+	height: 100px;
+	background-color: red; 
+	margin-left: 500px;
+	overflow:hidden;
+
+}
+.flo{
+	color:yellow;
+	float: right;
+	width: 400px;
+	height: 400px;		
+}
+.tabl{
+	background-color: yellow;
+	color:magenta	;
+	margin-top: 100px;
+	width: 400px;
+	height: 125x;	
+
+}
+table,tr,th,td {
+	border :2px solid red;
+	border-collapse: collapse;
+}
+*{
+	color:green;
+}
